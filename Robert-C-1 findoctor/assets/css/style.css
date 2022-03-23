@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Poppins:wght@200;300;600;700;800&display=swap');
+
+body, h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif;}
+h2 {font-weight: 600;color: #fff;text-align: center;font-size: 40px;}
+.navbar-nav {justify-content: center;align-items: center;}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {padding: 15px 0;}
+.navbar-nav li a:first-child {background-color: #09e5ab;text-decoration: none;color: #fff;display: block;text-align: center;padding: 12px 24px;border-radius: 25px;margin-left: 15px;transition: 0.5s;}
+.navbar-nav li a:first-child:hover {background-color: #00224e;}
+a.toggle {background-color: transparent !important;}
+.navbar-nav li img {padding-left: 20px;}
+.banner {background: url(../images/Background.png) no-repeat center;background-size: cover;padding: 50px 0 0px 0;}
+.banner h1 {font-weight: 600;font-size: 60px;padding: 100px 171px 15px 0;}
+.banner p {font-weight: 300;font-size: 16px;padding: 0 171px 45px 0;line-height: 32px;}
+.selection {display: flex;justify-content: flex-start;align-items: flex-start;padding: 0;}
+.selection li {list-style: none;padding-right: 20px;}
+.selection li:first-child {padding-right: 20px;}
+.selection li button {background-color: #e6e6e6;color: #000;border: 1px solid #e6e6e6;padding: 10px 30px;border-radius: 5px; transition: 0.5s;}
+.selection li button:hover {background-color: #0de0fe;color: #fff;}
+.data-submit {display: flex;margin: 0;padding: 0%;justify-content: flex-start;align-items: center;}
+.data-submit li {list-style: none;padding-right: 10px;}
+.data-submit li a {background-color: #09e5ab;color: #fff;padding: 7px 18px;}
+.data-submit .address {width: 283px;}
+.education-guides {background: url(../images/Background2.png) no-repeat center;padding: 0px 0;}
+.education .card-body h4 {font-size: 20px;font-weight: 600;}
+.education {padding: 20px;}
+.education-guides h2 {padding: 66px 0 130px 0;}
+.card-body {flex: 1 1 auto;padding: 40px 37px;}
+.card {margin-left: 18px;}
+.slick-dots li button:before {color: #09e5ab;font-size: 10px;}
+.slick-dots li button:before {left: -20px;}
+.slick-prev {display: none !important;}
+.slick-next {display: none !important;}
+.browse {text-align: center;}
+.browse a {color: #0de0fe;font-weight: 600;font-size: 14px;}
+.find-doctor {text-align: center;background-color: #f9f9f9;height: 1000px;}
+.find-doctor h2 {color: #000;padding-bottom: 50px;}
+.find-doctor h5 {
+    font-size: 20px;
+    color: #41e7b6;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.doctor-grid {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+.doctor-grid li {
+    list-style: none;
+    text-align: center;
+    height: 322px;
+    width: 246px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 0 35px;
+}
+.doctor-grid h6 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+.doctor-grid li img {
+    padding-top: 25px;
+}
+.doctor-grid li a i {
+    color: #fec50e;
+}
+.doctor-grid li a:last-child {
+    color: #a5a5a5;
+    padding-top: 13px;
+    padding-bottom: 30px;
+}
+.doctor-grid li a:last-child:hover {
+    color: #00224e;
+    font-weight: 600;
+}
+
+
+
+.doctor-grid li a .fa-map-marker-alt {
+    color: #a5a5a5;
+}
+.doctor-grid li p {
+    color: #a5a5a5;
+    padding-top: 7px;
+}
+
+/* TOP CITIES SECTION STARTS HERE */
+
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #a7a7a7;
+    box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+.dropdown a {
+ background-color: transparent !important;   
+ color: #a7a7a7 !important;
+ padding: 7px 50px 7px 25px !important;
+}
+.btn-secondary {
+    border-color: #a7a7a7;
+}
+
+
+
+
+
+
+
+.top-cities {
+    background: url(../images/Background3.png) no-repeat center;
+    padding: 130px 0 0 0;
+    position: relative;
+    height: 432px;
+}
+.top-cities::before {
+    content: '';
+    position: absolute;
+    background: url(../images/outer-img.png) no-repeat;
+    right: 0;
+    bottom: 0;
+    width: 490px;
+    height: 390px;
+}
+.top-cities h2 {
+    color: #000;
+}
+.top-cities-submit {
+    justify-content: center;
+    align-items: center;
+}
+
+/* TOP SPECIALTIES SECTION STARTS HERE */
+.top-specialties {
+    background: #f9f9f9;
+    height: 430px;
+    padding: 100px 0;
+}
+.top-specialties h2 {
+    color: #000;
+    padding-bottom: 40px;
+}
+.specialties ul.slick-dots {
+    bottom: -80px;
+}
+
+
+/* INSURANCE PLAN SECTION STARTS */
+
+.insurance-plan {
+    padding: 100px 0;
+}
+.insurance-plan h2 {
+    color: #000;
+    text-align: left;
+    padding-right: 84px;
+    padding-bottom: 30px;
+}
+.insurance-plan p {
+    padding-right: 123px;
+    line-height: 24px;
+}
+.insurance-plan .data-submit {
+    padding-top: 50px;
+}
+
+.doctor-name {
+    background: #f9f9f9;
+    padding: 100px 0 40px 0;
+}
+.doctor-name .alphabats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.doctor-name .alphabats li {
+    width: 92px;
+    height: 92px;
+    list-style: none;
+    font-size: 55px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 0px;
+    margin: 62px;
+    color: #12b6dd;
+    list-style: none;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.1);
+text-shadow: 0px 1px 1px rgba(78, 78, 78, 0.1);
+}
+.doctor-name .alphabats li a {
+background: linear-gradient(to left, #0DD0F3 0%, #1F6B9E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-decoration: none;
+}
+.doctor-name .alphabats li:hover {
+    box-shadow:  0px 1px 1px 0px rgb(20 184 218);
+    text-shadow: 0px 1px 1px rgba(78, 78, 78, 0.1);
+}
+
+
+.doctor-name h2 {
+    color: #000;
+}
+
+
+
+/* FOOTER STYLING STARTS HERE */
+
+.footer-links {
+    background: #09e5ab;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+.footer-links ul {
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links ul li {
+    list-style: none;
+}
+.footer-links ul li a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-links ul li a:hover {
+    color: #00224e;
+    text-decoration: underline;
+}
+
+.footer-links ul li span {
+    padding: 0 50px;
+    color: #fff;
+}
+footer p {
+    color: #7b7b7b;
+    line-height: 26px;
+}
+.footer-text {
+    padding: 35px 0;
+}
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1300px ) {
+    body{
+        overflow-x: hidden;
+    }
+    .banner h1 {
+        padding: 100px 80px 15px 0;
+    }
+    .education-guides h2 {
+        padding: 66px 0 70px 0;
+    }
+    .selection li button {
+        padding: 10px 20px;
+    }
+    .data-submit .address {
+        width: 100%;
+    }
+    
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body{
+        overflow-x: hidden;
+    }
+    .banner h1 {
+        padding: 100px 0px 15px 0;
+    }
+    .education-guides h2 {
+        padding: 66px 0 70px 0;
+    }
+    .selection li button {
+        padding: 10px 10px;
+    }
+    .data-submit .address {
+        width: 100%;
+    }
+    .doctor-grid h6 {
+        font-size: 14px;
+    }
+    .doctor-grid li a:last-child {
+        font-size: 14px;
+    }
+    .insurance-plan p {
+        padding-right: 0;
+    }
+    .insurance-plan .data-submit {
+        padding-top: 20px;
+    }
+    .doctor-name {
+        padding: 70px 0 40px 0;
+    }
+    .doctor-name .alphabats li {
+        margin: 35px;
+    }
+ 
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        overflow-x: hidden;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .insurance-plan img {
+        width: 100%;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .navbar-nav li img {
+        display: none;
+    }
+    .selection {
+        flex-wrap: wrap;
+    }
+    .banner h1 {
+        padding: 100px 0px 15px 0;
+        font-size: 45px;
+    }
+    .banner p {
+        padding: 0 0px 21px 0;
+    }
+    .education-guides h2 {
+        padding: 66px 0 70px 0;
+    }
+    .selection li button {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+    }
+    .data-submit {
+        flex-wrap: wrap;
+    }
+    .data-submit li {
+        margin-bottom: 10px;
+    }
+    .data-submit .address {
+        width: 100%;
+    }
+    .find-doctor {
+        height: 100%;
+    }
+    .doctor-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor-grid li {
+        margin-bottom: 10px;
+    }
+    .doctor-grid h6 {
+        font-size: 14px;
+    }
+    .doctor-grid li a:last-child {
+        font-size: 14px;
+    }
+    .top-cities::before {
+        display: none;
+    }
+    .top-cities {
+        padding: 100px 0;;
+        height: 100%;
+    }
+    .insurance-plan h2 {
+        padding-right: 0;
+    }
+    .insurance-plan p {
+        padding-right: 0;
+        line-height: 18px;
+    }
+    .insurance-plan .data-submit {
+        padding-top: 20px;
+    }
+    .doctor-name {
+        padding: 70px 0 40px 0;
+    }
+    .doctor-name .alphabats li {
+        margin: 35px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .navbar-nav li img {
+        display: none;
+    }
+    .selection {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner {
+        padding: 50px 0 38px 0;
+    }
+    .banner img {
+        display: none;
+    }
+    .banner h1 {
+        padding: 15px 0px 15px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner p {
+        padding: 0 0px 21px 0;
+        text-align: center;
+    }
+    .education-guides h2 {
+        padding: 40px 0 10px 0;
+    }
+    .selection li button {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+    }
+    .selection li {
+        padding-right: 10px;
+    }
+    .data-submit {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-submit li {
+        margin-bottom: 20px;
+    }
+    .data-submit .address {
+        width: 100%;
+    }
+    .find-doctor {
+        height: 100%;
+    }
+    .find-doctor h5 {
+        padding-top: 50px;
+    }
+    .doctor-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor-grid-second {
+        display: none;
+    }
+    .doctor-grid li {
+        margin-bottom: 10px;
+    }
+    .doctor-grid h6 {
+        font-size: 14px;
+    }
+    .doctor-grid li a:last-child {
+        font-size: 14px;
+    }
+    .top-specialties {
+        padding: 50px 0;
+    }
+    .top-cities::before {
+        display: none;
+    }
+    .top-cities {
+        padding: 50px 0;;
+        height: 100%;
+    }
+    .insurance-plan {
+        padding: 50px 0;
+    }
+    .insurance-plan h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+    .insurance-plan p {
+        padding-right: 0;
+        line-height: 18px;
+        text-align: center;
+    }
+    .insurance-plan img {
+        display: none;
+    }
+    .insurance-plan .data-submit {
+        padding-top: 20px;
+    }
+    .doctor-name {
+        padding: 70px 0 40px 0;
+    }
+    .doctor-name .alphabats li {
+        margin: 10px;
+    }
+    .doctor-name .alphabats li {
+        width: 50px;
+        height: 50px;
+        font-size: 33px;
+        margin: 10px;
+    }
+    .footer-links ul li a {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+   .footer-links ul li span {
+       display: none;
+   }
+   footer p {
+    line-height: 18px;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+  
+    body{
+        overflow-x: hidden;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .navbar-nav li img {
+        display: none;
+    }
+    .selection {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner {
+        padding: 50px 0 38px 0;
+    }
+    .banner img {
+        display: none;
+    }
+    .banner h1 {
+        padding: 15px 0px 15px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner p {
+        padding: 0 0px 21px 0;
+        text-align: center;
+    }
+    .education-guides h2 {
+        padding: 40px 0 10px 0;
+    }
+    .selection li button {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+    }
+    .selection li {
+        padding-right: 10px;
+    }
+    .data-submit {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .data-submit li {
+        margin-bottom: 20px;
+    }
+    .data-submit .address {
+        width: 100%;
+    }
+    .find-doctor {
+        height: 100%;
+    }
+    .find-doctor h5 {
+        padding-top: 50px;
+    }
+    .doctor-grid-second {
+        display: none;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor-grid li {
+        margin-bottom: 10px;
+    }
+    .doctor-grid h6 {
+        font-size: 14px;
+    }
+    .doctor-grid li a:last-child {
+        font-size: 14px;
+    }
+    .top-specialties {
+        padding: 50px 0;
+    }
+    .top-cities::before {
+        display: none;
+    }
+    .top-cities {
+        padding: 50px 0;;
+        height: 100%;
+    }
+    .insurance-plan {
+        padding: 50px 0;
+    }
+    .insurance-plan h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+    .insurance-plan p {
+        padding-right: 0;
+        line-height: 18px;
+        text-align: center;
+    }
+    .insurance-plan img {
+        display: none;
+    }
+    .insurance-plan .data-submit {
+        padding-top: 20px;
+    }
+    .doctor-name {
+        padding: 70px 0 40px 0;
+    }
+    .doctor-name .alphabats li {
+        margin: 10px;
+    }
+    .doctor-name .alphabats li {
+        width: 50px;
+        height: 50px;
+        font-size: 33px;
+        margin: 10px;
+    }
+    .footer-links ul li a {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+   .footer-links ul li span {
+       display: none;
+   }
+   footer p {
+    line-height: 18px;
+    }
+
+}
